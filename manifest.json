@@ -1,0 +1,12 @@
+{
+    "name": "adblock",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "Block add in Yandex Document Viewer",
+    "content_scripts": [
+        {
+            "matches": [ "https://docviewer.yandex.com/*" ],
+            "js": [ "scripts/block.js" ]
+        }
+    ]
+}
